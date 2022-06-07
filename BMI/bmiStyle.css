@@ -1,0 +1,102 @@
+body{
+    background-image: url("https://c8.alamy.com/zooms/9/5a37478855bd431c92dcf8faa08c7b13/rx1345.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 17px;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+.outer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 47rem;
+    background-color: white;
+    height: 30rem;
+    position: relative;
+}
+.header{
+    background-color: yellow;
+    width: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-inner-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    margin-top: 2rem;
+}
+.inner-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 25rem;
+}
+input{
+    padding: 0.5rem;
+    font-size: 17px;
+    
+}
+button {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+ 
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 0.8;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 18px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+}
+
+button:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+button:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+.tailer{
+    bottom: 0px;
+    position: absolute;
+    background-color: gainsboro;
+    width: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    height: 1.7rem;
+    padding: 0.3rem;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
